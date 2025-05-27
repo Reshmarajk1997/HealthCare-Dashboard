@@ -1,0 +1,134 @@
+.anatomy-section {
+  display: flex;
+  height: 30rem;
+  width: 16rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+   padding: 1rem; 
+   background-color: #eef8f6; 
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+  position: relative;
+  margin-right: 7rem;
+}
+
+/* Left: Anatomy Image */
+.anatomy-image {
+  width: 12.5rem;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+}
+
+/* Absolute indicators over image */
+.anatomy-indicator {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+.heart {
+  top: 40%;
+  left: 90%;
+}
+
+.leg {
+  bottom: 10%;
+  left: 48%;
+}
+.anatomy-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 0.4rem;
+}
+
+/* Color indicators */
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-yellow {
+  color: orange;
+}
+
+.text-blue {
+  color: blue;
+}
+
+/* Positioning based on name */
+.heart {
+  top: 80px;
+  left: 100px;
+}
+
+.lungs {
+  top: 110px;
+  left: 95px;
+}
+
+.teeth {
+  top: 40px;
+  left: 110px;
+}
+
+.bone {
+  bottom: 70px;
+  left: 120px;
+}
+
+/* Right: HealthStatus Cards section */
+.health-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.health-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f8fa;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.health-card-title {
+  font-weight: 600;
+}
+
+.health-card-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.85rem;
+}
+
+.health-card-status.green {
+  background: #e6f7e6;
+  color: green;
+}
+
+.health-card-status.red {
+  background: #fdeaea;
+  color: red;
+}
+
+.health-card-status.yellow {
+  background: #fff8e1;
+  color: orange;
+}

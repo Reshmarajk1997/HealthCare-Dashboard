@@ -1,0 +1,74 @@
+.card{
+    margin-right: -4rem;
+     
+}
+
+.calendar-view {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.calendar-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.calendar-nav-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.calendar-day-header {
+  font-weight: bold;
+  text-align: center;
+  color: #666;
+  padding: 0.25rem;
+  background-color: #f0f4f8;
+  border-radius: 4px;
+}
+
+.calendar-day {
+  background-color: #f9f9f9;
+  padding: 0.5rem;
+  border-radius: 4px;
+  min-height: 120px;
+}
+
+.calendar-day-number {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.calendar-time-slot {
+  margin-bottom: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.time-label {
+  font-size: 0.9rem;
+  color: #555;
+}

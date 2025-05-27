@@ -1,0 +1,110 @@
+
+
+
+.dashboard-main {
+  padding: 1.5rem;
+  background-color: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Anatomy on the left, right side takes more space */
+  gap: 1.5rem;
+}
+
+.dashboard-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.dashboard-subgrid {
+  display: flex; /* Change to flex to place children side by side */
+  flex-direction: row; /* Horizontal layout */
+  gap: 1.5rem;
+}
+
+/* .status-cards {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 200px; 
+} */
+
+.calendar-container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 2; /* Take up more space than status-cards */
+  min-width: 300px; /* Ensure it doesn't shrink too much */
+}
+
+.dashboard-bottom-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.upcoming-schedule {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.upcoming-schedule-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.schedule-group {
+  margin-bottom: 1rem;
+}
+
+.schedule-day {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.schedule-appointments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr; /* Stack on smaller screens */
+  }
+
+  .dashboard-subgrid {
+    flex-direction: column; /* Stack vertically on smaller screens */
+  }
+
+  .status-cards,
+  .calendar-container {
+    flex: 1; /* Reset flex for vertical stacking */
+    min-width: 100%; /* Take full width on smaller screens */
+  }
+
+  .dashboard-right {
+    order: 1; /* Move right section above anatomy on mobile */
+  }
+}

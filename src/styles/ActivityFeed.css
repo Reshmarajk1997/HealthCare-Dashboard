@@ -1,0 +1,45 @@
+.activity-feed {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.activity-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.activity-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* height: 100px;  */
+  height: 120px; /* Increased height to make bars more visible */
+  padding: 0 0.5rem; /* Add padding to avoid clipping */
+}
+
+.activity-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+
+  max-width: 30px;
+}
+
+.activity-bar {
+  width: 10px; /* Width of each bar */
+  border-radius: 2px;
+  transition: height 0.3s ease;
+}
+
+.activity-day {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.5rem;
+
+  width: 100%;
+}

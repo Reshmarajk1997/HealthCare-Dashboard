@@ -16,8 +16,16 @@
 
 .dashboard-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Anatomy on the left, right side takes more space */
+  grid-template-columns: 1fr 2fr;
   gap: 1.5rem;
+}
+
+.dashboard-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  width: 100%;
 }
 
 .dashboard-right {
@@ -27,19 +35,12 @@
 }
 
 .dashboard-subgrid {
-  display: flex; /* Change to flex to place children side by side */
-  flex-direction: row; /* Horizontal layout */
+  display: flex; 
+  flex-direction: row; 
   gap: 1.5rem;
 }
 
-/* .status-cards {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  flex: 1;
-  min-width: 200px; 
-} */
+
 
 .calendar-container {
   background-color: #fff;
@@ -49,15 +50,24 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  flex: 2; /* Take up more space than status-cards */
-  min-width: 300px; /* Ensure it doesn't shrink too much */
+  flex: 2; 
+  min-width: 300px;
 }
 
-.dashboard-bottom-section {
+.status-cards {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 200px;
+}
+
+/* .dashboard-bottom-section {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-}
+} */
 
 .upcoming-schedule {
   background-color: #fff;
@@ -91,20 +101,20 @@
 
 @media (max-width: 768px) {
   .dashboard-grid {
-    grid-template-columns: 1fr; /* Stack on smaller screens */
+    grid-template-columns: 1fr; 
   }
 
   .dashboard-subgrid {
-    flex-direction: column; /* Stack vertically on smaller screens */
+    flex-direction: column; 
   }
 
   .status-cards,
   .calendar-container {
-    flex: 1; /* Reset flex for vertical stacking */
-    min-width: 100%; /* Take full width on smaller screens */
+    flex: 1; 
+    min-width: 100%; 
   }
 
   .dashboard-right {
-    order: 1; /* Move right section above anatomy on mobile */
+    order: 1; 
   }
 }

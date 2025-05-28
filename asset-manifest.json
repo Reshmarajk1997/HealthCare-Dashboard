@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/healthcare-dashboard/static/css/main.c224b704.css",
-    "main.js": "/healthcare-dashboard/static/js/main.0f863c36.js",
-    "static/js/453.1bdb1478.chunk.js": "/healthcare-dashboard/static/js/453.1bdb1478.chunk.js",
-    "static/media/human_anatomy.png": "/healthcare-dashboard/static/media/human_anatomy.43a5f748db4265a1a7f6.png",
-    "static/media/heart.png": "/healthcare-dashboard/static/media/heart.50bd4282f90f4198fec4.png",
-    "static/media/injection.png": "/healthcare-dashboard/static/media/injection.601c91880de4b0da5975.png",
-    "static/media/arm.png": "/healthcare-dashboard/static/media/arm.42f2a5f15c3b813fafc3.png",
-    "static/media/leg.png": "/healthcare-dashboard/static/media/leg.4f20b4f8d5b5a12b99dd.png",
-    "index.html": "/healthcare-dashboard/index.html",
-    "main.c224b704.css.map": "/healthcare-dashboard/static/css/main.c224b704.css.map",
-    "main.0f863c36.js.map": "/healthcare-dashboard/static/js/main.0f863c36.js.map",
-    "453.1bdb1478.chunk.js.map": "/healthcare-dashboard/static/js/453.1bdb1478.chunk.js.map"
+    "main.css": "/HealthCare-Dashboard/static/css/main.c224b704.css",
+    "main.js": "/HealthCare-Dashboard/static/js/main.3ac53eb4.js",
+    "static/js/453.1bdb1478.chunk.js": "/HealthCare-Dashboard/static/js/453.1bdb1478.chunk.js",
+    "static/media/human_anatomy.png": "/HealthCare-Dashboard/static/media/human_anatomy.43a5f748db4265a1a7f6.png",
+    "static/media/heart.png": "/HealthCare-Dashboard/static/media/heart.50bd4282f90f4198fec4.png",
+    "static/media/injection.png": "/HealthCare-Dashboard/static/media/injection.601c91880de4b0da5975.png",
+    "static/media/arm.png": "/HealthCare-Dashboard/static/media/arm.42f2a5f15c3b813fafc3.png",
+    "static/media/leg.png": "/HealthCare-Dashboard/static/media/leg.4f20b4f8d5b5a12b99dd.png",
+    "index.html": "/HealthCare-Dashboard/index.html",
+    "main.c224b704.css.map": "/HealthCare-Dashboard/static/css/main.c224b704.css.map",
+    "main.3ac53eb4.js.map": "/HealthCare-Dashboard/static/js/main.3ac53eb4.js.map",
+    "453.1bdb1478.chunk.js.map": "/HealthCare-Dashboard/static/js/453.1bdb1478.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c224b704.css",
-    "static/js/main.0f863c36.js"
+    "static/js/main.3ac53eb4.js"
   ]
 }

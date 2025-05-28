@@ -2,7 +2,8 @@
   "name": "healthcare-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://reshmarajk1997.github.io/healthcare-dashboard",
+ "homepage": "https://reshmarajk1997.github.io/HealthCare-Dashboard",
+
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
